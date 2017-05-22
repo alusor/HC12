@@ -1,0 +1,503 @@
+ABA	N	Inherente	1806	2	0	2
+
+ADCA	S	Inmediato	89	1	1	2
+ADCA	S	Directo		99	1	1	2
+ADCA	S	Extendido	B9	1	2	3
+ADCA	S	IDX		A9	1	1	2
+ADCA	S	IDX1		A9	1	2	3
+ADCA	S	IDX2		A9	1	3	4
+ADCA	S	[D,IDX]		A9	1	1	2
+ADCA	S	[IDX2]		A9	1	3	4
+
+ADCB	S	Inmediato	C9	1	1	2
+ADCB	S	Directo		D9	1	1	2
+ADCB	S	Extendido	F9	1	2	3
+ADCB	S	IDX		E9	1	1	2
+ADCB	S	IDX1		E9	1	2	3
+ADCB	S	IDX2		E9	1	3	4
+ADCB	S	[D,IDX]		E9	1	1	2
+ADCB	S	[IDX2]		E9	1	3	4
+
+ADDA	S	Inmediato	8B	1	1	2
+ADDA	S	Directo		9B	1	1	2
+ADDA	S	Extendido	BB	1	2	3
+ADDA	S	IDX		AB	1	1	2
+ADDA	S	IDX1		AB	1	2	3
+ADDA	S	IDX2		AB	1	3	4
+ADDA	S	[D,IDX]		AB	1	1	2
+ADDA	S	[IDX2]		AB	1	3	4
+
+ADDB	S	Inmediato	CB	1	1	2
+ADDB	S	Directo		DB	1	1	2
+ADDB	S	Extendido	FB	1	2	3
+ADDB	S	IDX		EB	1	1	2
+ADDB	S	IDX1		EB	1	2	3
+ADDB	S	IDX2		EB	1	3	4
+ADDB	S	[D,IDX]		EB	1	1	2
+ADDB	S	[IDX2]		EB	1	3	4
+
+ADDD	S	Inmediato	C3	1	2	3
+ADDD	S	Directo		D3	1	1	2
+ADDD	S	Extendido	F3	1	2	3
+ADDD	S	IDX		E3	1	1	2
+ADDD	S	IDX1		E3	1	2	3
+ADDD	S	IDX2		E3	1	3	4
+ADDD	S	[D,IDX]		E3	1	1	2
+ADDD	S	[IDX2]		E3	1	3	4
+
+ANDA	S	Inmediato	84	1	1	2
+ANDA	S	Directo		94	1	1	2
+ANDA	S	Extendido	B4	1	2	3
+ANDA	S	IDX		A4	1	1	2
+ANDA	S	IDX1		A4	1	2	3
+ANDA	S	IDX2		A4	1	3	4
+ANDA	S	[D,IDX]		A4	1	1	2
+ANDA	S	[IDX2]		A4	1	3	4
+
+ANDB	S	Inmediato	C4	1	1	2
+ANDB	S	Directo		D4	1	1	2
+ANDB	S	Extendido	F4	1	2	3
+ANDB	S	IDX		E4	1	1	2
+ANDB	S	IDX1		E4	1	2	3
+ANDB	S	IDX2		E4	1	3	4
+ANDB	S	[D,IDX]		E4	1	1	2
+ANDB	S	[IDX2]		E4	1	3	4
+
+BCC	S	REL		24	1	1	2
+
+BCS	S	REL		25	1	1	2
+
+BEQ	S	REL		27	1	1	2
+
+BGE	S	REL		2C	1	1	2
+
+BGND	S	Inherente	00	1	0	1
+
+BGT	S	REL		2E	1	1	2
+
+BHI	S	REL		22	1	1	2
+
+BHS	S	REL		24	1	1	2
+
+BITA	S	Inmediato	85	1	1	2
+BITA	S	Directo		95	1	1	2
+BITA	S	Extendido	B5	1	2	3
+BITA	S	IDX		A5	1	1	2
+BITA	S	IDX1		A5	1	2	3
+BITA	S	IDX2		A5	1	3	4
+BITA	S	[D,IDX]		A5	1	1	2
+BITA	S	[IDX2]		A5	1	3	4
+
+BITB	S	Inmediato	C5	1	1	2
+BITB	S	Directo		D5	1	1	2
+BITB	S	Extendido	F5	1	2	3
+BITB	S	IDX		E5	1	1	2
+BITB	S	IDX1		E5	1	2	3
+BITB	S	IDX2		E5	1	3	4
+BITB	S	[D,IDX]		E5	1	1	2
+BITB	S	[IDX2]		E5	1	3	4
+
+BLE	S	REL		2F	1	1	2
+
+BLO	S	REL		25	1	1	2
+
+BLS	S	REL		23	1	1	2
+
+BLT	S	REL		2D	1	1	2
+
+BMI	S	REL		2B	1	1	2
+
+BNE	S	REL		26	1	1	2
+
+BPL	S	REL		2A	1	1	2
+
+BRA	S	REL		20	1	1	2
+
+BRN	S	REL		21	1	1	2
+
+BSR	S	REL		07	1	1	2
+
+BVC	S	REL		28	1	1	2
+
+BVS	S	REL		29	1	1	2
+
+CBA	N	Inherente	1817	2	0	2
+
+CLRA	N	Inherente	87	1	0	1
+
+CLRB	N	Inherente	C7	1	0	1
+
+CMPA	S	Inmediato	81	1	1	2
+CMPA	S	Directo		91	1	1	2
+CMPA	S	Extendido	B1	1	2	3
+CMPA	S	IDX		A1	1	1	2
+CMPA	S	IDX1		A1	1	2	3
+CMPA	S	IDX2		A1	1	3	4
+CMPA	S	[D,IDX]		A1	1	1	2
+CMPA	S	[IDX2]		A1	1	3	4
+
+CMPB	S	Inmediato	C1	1	1	2
+CMPB	S	Directo		D1	1	1	2
+CMPB	S	Extendido	F1	1	2	3
+CMPB	S	IDX		E1	1	1	2
+CMPB	S	IDX1		E1	1	2	3
+CMPB	S	IDX2		E1	1	3	4
+CMPB	S	[D,IDX]		E1	1	1	2
+CMPB	S	[IDX2]		E1	1	3	4
+
+COMA	N	Inherente	41	1	0	1
+
+COMB	N	Inherente	51	1	0	1
+
+CPD	S	Inmediato	8C	1	2	3
+CPD	S	Directo		9C	1	1	2
+CPD	S	Extendido	BC	1	2	3
+CPD	S	IDX		AC	1	1	2
+CPD	S	IDX1		AC	1	2	3
+CPD	S	IDX2		AC	1	3	4
+CPD	S	[D,IDX]		AC	1	1	2
+CPD	S	[IDX2]		AC	1	3	4
+
+CPS	S	Inmediato	8F	1	2	3
+CPS	S	Directo		9F	1	1	2
+CPS	S	Extendido	BF	1	2	3
+CPS	S	IDX		AF	1	1	2
+CPS	S	IDX1		AF	1	2	3
+CPS	S	IDX2		AF	1	3	4
+CPS	S	[D,IDX]		AF	1	1	2
+CPS	S	[IDX2]		AF	1	3	4
+
+CPX	S	Inmediato	8E	1	2	3
+CPX	S	Directo		9E	1	1	2
+CPX	S	Extendido	BE	1	2	3
+CPX	S	IDX		AE	1	1	2
+CPX	S	IDX1		AE	1	2	3
+CPX	S	IDX2		AE	1	3	4
+CPX	S	[D,IDX]		AE	1	1	2
+CPX	S	[IDX2]		AE	1	3	4
+
+CPY	S	Inmediato	8D	1	2	3
+CPY	S	Directo		9D	1	1	2
+CPY	S	Extendido	BD	1	2	3
+CPY	S	IDX		AD	1	1	2
+CPY	S	IDX1		AD	1	2	3
+CPY	S	IDX2		AD	1	3	4
+CPY	S	[D,IDX]		AD	1	1	2
+CPY	S	[IDX2]		AD	1	3	4
+
+DAA	N	Inherente	1807	2	0	2
+
+DEX	N	Inherente	09	1	0	1
+
+DEY	N	Inherente	03	1	0	1
+
+EDIV	N	Inherente	11	1	0	1
+
+EDIVS	N	Inherente	1814	2	0	2
+
+EMUL	N	Inherente	13	1	0	1
+
+EMULS	N	Inherente	1813	2	0	2
+
+EORA	S	Inmediato	89	1	1	2
+EORA	S	Directo		98	1	1	2
+EORA	S	Extendido	B8	1	2	3
+EORA	S	IDX		A8	1	1	2
+EORA	S	IDX1		A8	1	2	3
+EORA	S	IDX2		A8	1	3	4
+EORA	S	[D,IDX]		A8	1	1	2
+EORA	S	[IDX2]		A8	1	3	4
+
+EORB	S	Inmediato	C8	1	1	2
+EORB	S	Directo		D8	1	1	2
+EORB	S	Extendido	F8	1	2	3
+EORB	S	IDX		E8	1	1	2
+EORB	S	IDX1		E8	1	2	3
+EORB	S	IDX2		E8	1	3	4
+EORB	S	[D,IDX]		E8	1	1	2
+EORB	S	[IDX2]		E8	1	3	4
+
+FDIV	N	Inherente	1811	2	0	2
+
+IDIV	N	Inherente	1810	2	0	2
+
+IDIVS	N	Inherente	1815	2	0	2
+
+INX	N	Inherente	08	1	0	1
+
+INY	N	Inherente	02	1	0	1
+
+LBCC	S	REL		1824	2	2	4
+
+LBCS	S	REL		1825	2	2	4
+
+LEBQ	S	REL		1827	2	2	4
+
+LBGE	S	REL		182C	2	2	4
+
+LBGT	S	REL		182E	2	2	4
+
+LBHI	S	REL		1822	2	2	4
+
+LBHS	S	REL		1824	2	2	4
+
+LBLE	S	REL		182F	2	2	4
+
+LBLO	S	REL		1825	2	2	4
+
+LBLS	S	REL		1823	2	2	4
+
+LBLT	S	REL		182D	2	2	4
+
+LBMI	S	REL		182B	2	2	4
+
+LBNE	S	REL		1826	2	2	4
+
+LBPL	S	REL		182A	2	2	4
+
+LBRA	S	REL		1820	2	2	4
+
+LBRN	S	REL		1821	2	2	4
+
+LBVC	S	REL		1828	2	2	4
+
+LBVS	S	REL		1829	2	2	4
+
+LDAA	S	Inmediato	86	1	1	2
+LDAA	S	Directo		96	1	1	2
+LDAA	S	Extendido	B6	1	2	3
+LDAA	S	IDX		A6	1	1	2
+LDAA	S	IDX1		A6	1	2	3
+LDAA	S	IDX2		A6	1	3	4
+LDAA	S	[D,IDX]		A6	1	1	2
+LDAA	S	[IDX2]		A6	1	3	4
+
+LDAB	S	Inmediato	C6	1	1	2
+LDAB	S	Directo		D6	1	1	2
+LDAB	S	Extendido	F6	1	2	3
+LDAB	S	IDX		E6	1	1	2
+LDAB	S	IDX1		E6	1	2	3
+LDAB	S	IDX2		E6	1	3	4
+LDAB	S	[D,IDX]		E6	1	1	2
+LDAB	S	[IDX2]		E6	1	3	4
+
+LDD	S	Inmediato	CC	1	2	3
+LDD	S	Directo		DC	1	1	2
+LDD	S	Extendido	FC	1	2	3
+LDD	S	IDX		EC	1	1	2
+LDD	S	IDX1		EC	1	2	3
+LDD	S	IDX2		EC	1	3	4
+LDD	S	[D,IDX]		EC	1	1	2
+LDD	S	[IDX2]		EC	1	3	4
+
+LDS	S	Inmediato	CF	1	2	3
+LDS	S	Directo		DF	1	1	2
+LDS	S	Extendido	FF	1	2	3
+LDS	S	IDX		EF	1	1	2
+LDS	S	IDX1		EF	1	2	3
+LDS	S	IDX2		EF	1	3	4
+LDS	S	[D,IDX]		EF	1	1	2
+LDS	S	[IDX2]		EF	1	3	4
+
+LDX	S	Inmediato	CE	1	2	3
+LDX	S	Directo		DE	1	1	2
+LDX	S	Extendido	FE	1	2	3
+LDX	S	IDX		EE	1	1	2
+LDX	S	IDX1		EE	1	2	3
+LDX	S	IDX2		EE	1	3	4
+LDX	S	[D,IDX]		EE	1	1	2
+LDX	S	[IDX2]		EE	1	3	4
+
+LDY	S	Inmediato	CD	1	2	3
+LDY	S	Directo		DD	1	1	2
+LDY	S	Extendido	FD	1	2	3
+LDY	S	IDX		ED	1	1	2
+LDY	S	IDX1		ED	1	2	3
+LDY	S	IDX2		ED	1	3	4
+LDY	S	[D,IDX]		ED	1	1	2
+LDY	S	[IDX2]		ED	1	3	4
+
+MUL	N	Inherente	12	1	0	1
+
+ORAA	S	Inmediato	8A	1	1	2
+ORAA	S	Directo		9A	1	1	2
+ORAA	S	Extendido	BA	1	2	3
+ORAA	S	IDX		AA	1	1	2
+ORAA	S	IDX1		AA	1	2	3
+ORAA	S	IDX2		AA	1	3	4
+ORAA	S	[D,IDX]		AA	1	2	3
+ORAA	S	[IDX2]		AA	1	3	4
+
+ORAB	S	Inmediato	CA	1	1	2
+ORAB	S	Directo		DA	1	1	2
+ORAB	S	Extendido	FA	1	2	3
+ORAB	S	IDX		EA	1	1	2
+ORAB	S	IDX1		EA	1	2	3
+ORAB	S	IDX2		EA	1	3	4
+ORAB	S	[D,IDX]		EA	1	1	2
+ORAB	S	[IDX2]		EA	1	3	4
+
+PSHA	N	Inherente	36	1	0	1
+
+PSHB	N	Inherente	37	1	0	1
+
+PSHC	N	Inherente	39	1	0	1
+
+PSHD	N	Inherente	3B	1	0	1
+
+PSHX	N	Inherente	34	1	0	1
+
+PSHY	N	Inherente	35	1	0	1
+
+PULA	N	Inherente	32	1	0	1
+
+PULB	N	Inherente	33	1	0	1
+
+PULC	N	Inherente	38	1	0	1
+
+PULD	N	Inherente	3A	1	0	1
+
+PULX	N	Inherente	30	1	0	1
+
+PULY	N	Inherente	31	1	0	1
+
+ROLA	N	Inherente	45	1	0	1
+
+ROLB	N	Inherente	55	1	0	1
+
+RORA	N	Inherente	46	1	0	1
+
+RORB	N	Inherente	56	1	0	1
+
+RTC	N	Inherente	0A	1	0	1
+
+RTI	N	Inherente	0B	1	0	1
+
+RTS	N	Inherente	3D	1	0	1
+
+SBA	N	Inherente	1816	2	0	2
+
+SBCA	S	Inmediato	82	1	1	2
+SBCA	S	Directo		92	1	1	2
+SBCA	S	Extendido	B2	1	2	3
+SBCA	S	IDX		A2	1	1	2
+SBCA	S	IDX1		A2	1	2	3
+SBCA	S	IDX2		A2	1	3	4
+SBCA	S	[D,IDX]		A2	1	1	2
+SBCA	S	[IDX2]		A2	1	3	4
+
+SBCB	S	Inmediato	C2	1	1	2
+SBCB	S	Directo		D2	1	1	2
+SBCB	S	Extendido	F2	1	2	3
+SBCB	S	IDX		E2	1	1	2
+SBCB	S	IDX1		E2	1	2	3
+SBCB	S	IDX2		E2	1	3	4
+SBCB	S	[D,IDX]		E2	1	1	2
+SBCB	S	[IDX2]		E2	1	3	4
+
+STAA	S	Directo		5A	1	1	2
+STAA	S	Extendido	7A	1	2	3
+STAA	S	IDX		6A	1	1	2
+STAA	S	IDX1		6A	1	2	3
+STAA	S	IDX2		6A	1	3	4
+STAA	S	[D,IDX]		6A	1	1	2
+STAA	S	[IDX2]		6A	1	3	4
+
+STAB	S	Directo		5B	1	1	2
+STAB	S	Extendido	7B	1	2	3
+STAB	S	IDX		6B	1	1	2
+STAB	S	IDX1		6B	1	2	3
+STAB	S	IDX2		6B	1	3	4
+STAB	S	[D,IDX]		6B	1	1	2
+STAB	S	[IDX2]		6B	1	3	4
+
+STD	S	Directo		5C	1	1	2
+STD	S	Extendido	7C	1	2	3
+STD	S	IDX		6C	1	1	2
+STD	S	IDX1		6C	1	2	3
+STD	S	IDX2		6C	1	3	4
+STD	S	[D,IDX]		6C	1	1	2
+STD	S	[IDX2]		6C	1	3	4
+
+STOP	N	Inherente	183E	2	0	2
+
+STS	S	Directo		5F	1	1	2
+STS	S	Extendido	7F	1	2	3
+STS	S	IDX		6F	1	1	2
+STS	S	IDX1		6F	1	2	3
+STS	S	IDX2		6F	1	3	4
+STS	S	[D,IDX]		6F	1	1	2
+STS	S	[IDX2]		6F	1	3	4
+
+STX	S	Directo		5E	1	1	2
+STX	S	Extendido	7E	1	2	3
+STX	S	IDX		6E	1	1	2
+STX	S	IDX1		6E	1	2	3
+STX	S	IDX2		6E	1	3	4
+STX	S	[D,IDX]		6E	1	1	2
+STX	S	[IDX2]		6E	1	3	4
+
+STY	S	Directo		5D	1	1	2
+STY	S	Extendido	7D	1	2	3
+STY	S	IDX		6D	1	1	2
+STY	S	IDX1		6D	1	2	3
+STY	S	IDX2		6D	1	3	4
+STY	S	[D,IDX]		6D	1	1	2
+STY	S	[IDX2]		6D	1	3	4
+
+SUBA	S	Inmediato	80	1	1	2
+SUBA	S	Directo		90	1	1	2
+SUBA	S	Extendido	B0	1	2	3
+SUBA	S	IDX		A0	1	1	2
+SUBA	S	IDX1		A0	1	2	3
+SUBA	S	IDX2		A0	1	3	4
+SUBA	S	[D,IDX]		A0	1	1	2
+SUBA	S	[IDX2]		A0	1	3	4
+
+SUBB	S	Inmediato	C0	1	1	2
+SUBB	S	Directo		D0	1	1	2
+SUBB	S	Extendido	F0	1	2	3
+SUBB	S	IDX		E0	1	1	2
+SUBB	S	IDX1		E0	1	2	3
+SUBB	S	IDX2		E0	1	3	4
+SUBB	S	[D,IDX]		E0	1	1	2
+SUBB	S	[IDX2]		E0	1	3	4
+
+SUBD	S	Inmediato	83	1	2	3
+SUBD	S	Directo		93	1	1	2
+SUBD	S	Extendido	B3	1	2	3
+SUBD	S	IDX		A3	1	1	2
+SUBD	S	IDX1		A3	1	2	3
+SUBD	S	IDX2		A3	1	3	4
+SUBD	S	[D,IDX]		A3	1	1	2
+SUBD	S	[IDX2]		A3	1	3	4
+
+SWI	N	Inherente	3F	1	0	1
+
+TAB	N	Inherente	180E	2	0	2
+
+TAP	N	Inherente	B702	2	0	2
+
+TBA	N	Inherente	180F	2	0	2
+
+TPA	N	Inherente	B720	2	0	2
+
+TSTA	N	Inherente	97	1	0	1
+
+TSTB	N	Inherente	D7	1	0	1
+
+TSX	N	Inherente	B775	2	0	2
+
+TSY	N	Inherente	B776	2	0	2
+
+TXS	N	Inherente	B757	2	0	2
+
+TYS	N	Inherente	B767	2	0	2
+
+WAI	N	Inherente	3E	1	0	1
+
+WAV	N	Inherente	183C	2	0	2
+
+XGDX	N	Inherente	B7C5	2	0	2
+
+XGDY	N	Inherente	B7C6	2	0	2
