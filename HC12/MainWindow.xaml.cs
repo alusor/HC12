@@ -57,18 +57,17 @@ namespace HC12
         {
             Instruction aux;
             for (int i = 0; i < temp.Length; i++) {
-                //temp[i] = temp[i].Trim();
                 if (temp[i].Length > 0)
                     if (temp[i].Contains(';'))
                     {
                         if (temp[i][0] == ';' && temp[i].Length <= 80)
                             salida.Text += "COMENTARIO\n\n";
-                        /*else {
+                        else {
                             salida.Text = "error";
                             break;
-                        }*/
+                        }
                     }
-                    else if (Char.IsLetter(temp[i][0]))
+                    else if (Char.IsLetterOrDigit(temp[i][0]))
                     {
                         temp[i] = Regex.Replace(temp[i], @"\s+", " ");
                         temp[i] = temp[i].Trim();
@@ -77,20 +76,21 @@ namespace HC12
                         switch (a.Length)
                         {
                             case 3:
-                                aux.etiqueta = a[0];
-                                aux.codop = a[1];
+                                aux.etiqueta = analizarEtiqueta(a[0]) ? a[0] : "Error etiqueta sin formato correcto.";
+                                aux.codop = analizarCodop(a[1])? a[1] : "Error Codop sin formato correcto.";
                                 aux.operando = a[2];
                                 break;
                             case 2:
-                                aux.etiqueta = a[0];
-                                aux.codop = a[1];
+                                aux.etiqueta = analizarEtiqueta(a[0]) ? a[0] : "Error etiqueta sin formato correcto.";
+                                aux.codop = analizarCodop(a[1]) ? a[1] : "Error Codop sin formato correcto.";
                                 break;
-                        }
-                        if (analizarEtiqueta(aux.etiqueta))
-                            salida.Text += "ETIQUETA: " + aux.etiqueta + "\nCODOP: " + aux.codop + "\nOPERANDO: " + aux.operando + "\n\n";
-                        else { salida.Text += "Error: " + aux.etiqueta +  " no es una etiqueta valida.\n\n";
-                            //break;
-                        }
+                        } 
+                    // analizarCodop(aux.codop);
+                    // if (analizarEtiqueta(aux.etiqueta))
+                       salida.Text += "ETIQUETA: " + aux.etiqueta + "\nCODOP: " + aux.codop + "\nOPERANDO: " + aux.operando + "\n\n";
+                    //else { salida.Text += "Error: " + aux.etiqueta + " no es una etiqueta valida.\n\n";
+                        //break;
+                    //}
                         linea.Add(aux);
                     }
                     else {
@@ -101,17 +101,21 @@ namespace HC12
                         switch (a.Length)
                         {
                             case 2:
-                                aux.codop = a[0];
+                                aux.codop = analizarCodop(a[0]) ? a[0] : "Error Codop sin formato correcto.";
                                 aux.operando = a[1];
                                 break;
                             case 1:
-                                aux.codop = a[0];
+                                aux.codop = analizarCodop(a[0]) ? a[0] : "Error Codop sin formato correcto.";
                                 break;
+                        }
+                        if (temp.Length == i + 1 && !aux.codop.ToUpper().Equals("END"))
+                        {
+                            salida.Text = "Error.";
+                            break;
                         }
                         salida.Text += "ETIQUETA: " + aux.etiqueta + "\nCODOP: " + aux.codop + "\nOPERANDO: " + aux.operando + "\n\n";
                         linea.Add(aux);
                     }
-                //aux.comentario = temp[i].Split(';')[0];
             }
         }
 
@@ -119,13 +123,18 @@ namespace HC12
            
             string patron = @"([A-Z]|[a-z])([A-Z]|[a-z]|[0-9]|_)*";
             Regex rx = new Regex(patron);
-            Console.Write(rx.IsMatch(etiqueta));
             if (etiqueta.Length <= 8 && rx.Match(etiqueta).ToString() == etiqueta) {
                 return true;
             }
 
             return false;
         }
-
+        private bool analizarCodop(string codop) {
+            string patron = @"([a-z]|[A-Z])+\.?([a-z]|[A-Z])*";
+            Regex rx = new Regex(patron);
+            if (codop.Length <= 5 && rx.Match(codop).ToString() == codop)
+                return true;
+            return false;
+        }
     }
 }
